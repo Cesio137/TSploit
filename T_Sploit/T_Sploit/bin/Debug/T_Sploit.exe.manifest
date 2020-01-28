@@ -65,7 +65,7 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="T_Sploit.exe" size="112640">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="T_Sploit.exe" size="113152">
       <assemblyIdentity name="T_Sploit" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>

@@ -64,6 +64,8 @@ namespace T_Sploit
                     Uri xmlUrl = new Uri(setup_update);
                     wc.DownloadFileAsync(xmlUrl, "update.exe");
                     wc.DownloadFileCompleted += new AsyncCompletedEventHandler(SetupDownloadCompleted);
+                    MessageBox.Show("The exploit will be close after downlaod");
+                    
                 }
                 else if (dialogResult == DialogResult.No)
                 {
@@ -84,6 +86,11 @@ namespace T_Sploit
         private void bunifuFlatButton2_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/nathanmiguel123/TSploit/releases");
+        }
+
+        private void bunifuFlatButton3_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://discord.gg/kCpH9DH");
         }
     }
 }
