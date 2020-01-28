@@ -35,19 +35,50 @@ namespace T_Sploit
 
         private void bunifuFlatButton4_Click(object sender, EventArgs e)
         {
-            string version = System.Configuration.ConfigurationManager.AppSettings["version"];
-            int v = Int32.Parse(version);
-
-            Uri xmlUrl = new Uri("https://raw.githubusercontent.com/nathanmiguel123/TSploit/master/manifest/update.config");
+            Uri xmlUrl = new Uri("https://raw.githubusercontent.com/nathanmiguel123/TSploit/manifest/manifest/update.config");
             wc.DownloadFileAsync(xmlUrl, "update.xml");
+            wc.DownloadFileCompleted += new AsyncCompletedEventHandler(FileDownloadCompleted);
+        }
+        private void FileDownloadCompleted(object sender, AsyncCompletedEventArgs e)
+        {
+            string version = System.Configuration.ConfigurationManager.AppSettings["version"];
+            int baseVersion = Int32.Parse(version);
 
-            XmlDocument update_info = new XmlDocument();
-            update_info.Load("update.xml");
-
-            foreach (XmlNode ndoe in update_info.DocumentElement)
+            XmlDocument doc = new XmlDocument();
+            doc.Load("update.xml");
+            XmlNode node = doc.DocumentElement.SelectSingleNode("/root/stable");
+            XmlNode update = doc.DocumentElement.SelectSingleNode("/root/update");
+            string setup_update = update.InnerText;
+            string stable = node.InnerText;
+            int stableVersion = Int32.Parse(stable);
+            
+            if (baseVersion == stableVersion)
             {
-
+                MessageBox.Show("Exploit are up to date");
             }
+            else if (baseVersion < stableVersion)
+            {
+                DialogResult dialogResult = MessageBox.Show("do you want to download the update?", "Update is avaliable", MessageBoxButtons.YesNo);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    Uri xmlUrl = new Uri(setup_update);
+                    wc.DownloadFileAsync(xmlUrl, "update.exe");
+                    wc.DownloadFileCompleted += new AsyncCompletedEventHandler(SetupDownloadCompleted);
+                }
+                else if (dialogResult == DialogResult.No)
+                {
+                    //nothing
+                }
+            }
+            else if (baseVersion > stableVersion)
+            {
+                DialogResult dialogResult = MessageBox.Show("WHAAATT!");
+            }
+        }
+        private void SetupDownloadCompleted(object sender, AsyncCompletedEventArgs e)
+        {
+            Process.Start("update.exe");
+            Application.Exit();
         }
     }
 }

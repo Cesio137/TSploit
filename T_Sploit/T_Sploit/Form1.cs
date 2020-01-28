@@ -21,13 +21,20 @@ namespace T_Sploit
         public TS_Form()
         {
             InitializeComponent();
+            string subdir = Directory.GetCurrentDirectory() + @"\Scripts";
+            // If directory does not exist, create it. 
+            if (!Directory.Exists(subdir))
+            {
+                Directory.CreateDirectory(subdir);
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             listScript_Box.Items.Clear();//Clear Items in the LuaScriptList
             Function.PopulateListBox(listScript_Box, "./Scripts", "*.txt");
-            Function.PopulateListBox(listScript_Box, "./Scripts", "*.lua");
+            Function.PopulateListBox(listScript_Box, "./Scripts", "*.lua"); 
+            
         }
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
