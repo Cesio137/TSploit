@@ -65,7 +65,7 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="T_Sploit.exe" size="110592">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="T_Sploit.exe" size="111616">
       <assemblyIdentity name="T_Sploit" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>
@@ -75,7 +75,7 @@
     </dependentAssembly>
   </dependency>
   <file name="logo.ico" size="16958" />
-  <file name="T_Sploit.exe.config" size="240" />
+  <file name="T_Sploit.exe.config" size="268" />
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
     <application>
       <!-- A list of the Windows versions that this application has been tested on
