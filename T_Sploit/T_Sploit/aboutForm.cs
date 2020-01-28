@@ -80,5 +80,10 @@ namespace T_Sploit
             Process.Start("update.exe");
             Application.Exit();
         }
+
+        private void bunifuFlatButton2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/nathanmiguel123/TSploit/releases");
+        }
     }
 }
