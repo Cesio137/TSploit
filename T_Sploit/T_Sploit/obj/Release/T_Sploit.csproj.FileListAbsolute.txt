@@ -20,3 +20,4 @@ D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.application
 D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.csproj.CopyComplete
 D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.exe
 D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.pdb
+D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.upgradeForm.resources

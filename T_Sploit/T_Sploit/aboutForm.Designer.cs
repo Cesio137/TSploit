@@ -35,6 +35,9 @@
             this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
             this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.progress_metadata = new Bunifu.Framework.UI.BunifuProgressBar();
+            this.notification_label = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.progress_label = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.SuspendLayout();
             // 
             // bunifuSeparator1
@@ -187,7 +190,7 @@
             this.bunifuFlatButton4.IconVisible = false;
             this.bunifuFlatButton4.IconZoom = 90D;
             this.bunifuFlatButton4.IsTab = false;
-            this.bunifuFlatButton4.Location = new System.Drawing.Point(151, 113);
+            this.bunifuFlatButton4.Location = new System.Drawing.Point(151, 157);
             this.bunifuFlatButton4.Name = "bunifuFlatButton4";
             this.bunifuFlatButton4.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.bunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
@@ -201,11 +204,51 @@
             this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton4.Click += new System.EventHandler(this.bunifuFlatButton4_Click);
             // 
+            // progress_metadata
+            // 
+            this.progress_metadata.BackColor = System.Drawing.Color.Black;
+            this.progress_metadata.BorderRadius = 5;
+            this.progress_metadata.Location = new System.Drawing.Point(66, 234);
+            this.progress_metadata.MaximumValue = 100;
+            this.progress_metadata.Name = "progress_metadata";
+            this.progress_metadata.ProgressColor = System.Drawing.Color.Lime;
+            this.progress_metadata.Size = new System.Drawing.Size(291, 10);
+            this.progress_metadata.TabIndex = 6;
+            this.progress_metadata.Value = 0;
+            this.progress_metadata.Visible = false;
+            // 
+            // notification_label
+            // 
+            this.notification_label.AutoSize = true;
+            this.notification_label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.notification_label.Location = new System.Drawing.Point(172, 205);
+            this.notification_label.Name = "notification_label";
+            this.notification_label.Size = new System.Drawing.Size(79, 13);
+            this.notification_label.TabIndex = 7;
+            this.notification_label.Text = "Download data";
+            this.notification_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.notification_label.Visible = false;
+            // 
+            // progress_label
+            // 
+            this.progress_label.AutoSize = true;
+            this.progress_label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.progress_label.Location = new System.Drawing.Point(195, 260);
+            this.progress_label.Name = "progress_label";
+            this.progress_label.Size = new System.Drawing.Size(33, 13);
+            this.progress_label.TabIndex = 8;
+            this.progress_label.Text = "100%";
+            this.progress_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.progress_label.Visible = false;
+            // 
             // aboutForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.Controls.Add(this.progress_label);
+            this.Controls.Add(this.notification_label);
+            this.Controls.Add(this.progress_metadata);
             this.Controls.Add(this.bunifuFlatButton4);
             this.Controls.Add(this.bunifuSeparator2);
             this.Controls.Add(this.bunifuFlatButton3);
@@ -215,6 +258,7 @@
             this.Name = "aboutForm";
             this.Size = new System.Drawing.Size(423, 332);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -226,5 +270,8 @@
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton3;
         private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator2;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton4;
+        private Bunifu.Framework.UI.BunifuProgressBar progress_metadata;
+        private Bunifu.Framework.UI.BunifuCustomLabel notification_label;
+        private Bunifu.Framework.UI.BunifuCustomLabel progress_label;
     }
 }
