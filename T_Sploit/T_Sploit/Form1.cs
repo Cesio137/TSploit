@@ -23,7 +23,7 @@ namespace T_Sploit
             InitializeComponent();
             string subdir = Directory.GetCurrentDirectory() + @"\Scripts";
             string updatedir = Directory.GetCurrentDirectory() + @"\upgrade.exe";
-            string updatexml = Directory.GetCurrentDirectory() + @"\T_Sploit.exe.config";
+            string updatexml = Directory.GetCurrentDirectory() + @"\update.xml";
             // If directory does not exist, create it. 
             if (!Directory.Exists(subdir))
             {
@@ -36,7 +36,7 @@ namespace T_Sploit
 
             if (File.Exists(updatexml))
             {
-                File.Delete(updatedir);
+                File.Delete(updatexml);
             }
             else
             {
@@ -45,7 +45,7 @@ namespace T_Sploit
 
             if (File.Exists(updatedir))
             {
-                File.Delete(updatexml);
+                File.Delete(updatedir);
             }
             else
             {

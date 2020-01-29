@@ -64,7 +64,7 @@ namespace T_Sploit
                 XmlNode update = doc.DocumentElement.SelectSingleNode("/root/update");
                 string setup_update = update.InnerText;
 
-                DialogResult dialogResult = MessageBox.Show("Sure", "Some Title", MessageBoxButtons.YesNo);
+                DialogResult dialogResult = MessageBox.Show("Would you like to download it?", "An update is available", MessageBoxButtons.YesNo);
                 if (dialogResult == DialogResult.Yes)
                 {
                     Uri xmlUrl = new Uri(setup_update);
