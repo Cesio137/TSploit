@@ -95,7 +95,7 @@
         '\'',
         '\''};
             this.Script_Box.AutoIndentCharsPatterns = "\r\n^\\s*[\\w\\.]+(\\s\\w+)?\\s*(?<range>=)\\s*(?<range>.+)\r\n";
-            this.Script_Box.AutoScrollMinSize = new System.Drawing.Size(371, 56);
+            this.Script_Box.AutoScrollMinSize = new System.Drawing.Size(795, 70);
             this.Script_Box.BackBrush = null;
             this.Script_Box.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.Script_Box.BracketsHighlightStrategy = FastColoredTextBoxNS.BracketsHighlightStrategy.Strategy2;
@@ -104,7 +104,6 @@
             this.Script_Box.CommentPrefix = "--";
             this.Script_Box.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Script_Box.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.Script_Box.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.Script_Box.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Script_Box.IndentBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.Script_Box.IsReplaceMode = false;
@@ -122,8 +121,9 @@
             this.Script_Box.ServiceLinesColor = System.Drawing.Color.Transparent;
             this.Script_Box.Size = new System.Drawing.Size(599, 338);
             this.Script_Box.TabIndex = 4;
-            this.Script_Box.Text = "--[[\r\n    The Super Exploit v1.0.1\r\n    Source Code: github.com/nathanmiguel123\r\n" +
-    "]]";
+            this.Script_Box.Text = "--[[\r\n    The Super Exploit v1.0.2\r\n    Source Code: github.com/nathanmiguel123\r\n" +
+    "    Youtube channel: https://www.youtube.com/channel/UCiiLg8_6VShZSTY669CRGgQ?vi" +
+    "ew_as=subscriber\r\n]]";
             this.Script_Box.Zoom = 100;
             // 
             // exe_btn
