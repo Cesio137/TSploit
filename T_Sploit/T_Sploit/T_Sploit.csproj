@@ -102,11 +102,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="aboutForm.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="checkupdateForm.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="aboutForm.Designer.cs">
-      <DependentUpon>aboutForm.cs</DependentUpon>
+    <Compile Include="checkupdateForm.Designer.cs">
+      <DependentUpon>checkupdateForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -115,34 +115,22 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Function.cs" />
-    <Compile Include="optForm.cs">
+    <Compile Include="optionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="optForm.Designer.cs">
-      <DependentUpon>optForm.cs</DependentUpon>
+    <Compile Include="optionsForm.Designer.cs">
+      <DependentUpon>optionsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="scripthub_form.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="scripthub_form.Designer.cs">
-      <DependentUpon>scripthub_form.cs</DependentUpon>
-    </Compile>
-    <Compile Include="upgradeForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="upgradeForm.Designer.cs">
-      <DependentUpon>upgradeForm.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="aboutForm.resx">
-      <DependentUpon>aboutForm.cs</DependentUpon>
+    <EmbeddedResource Include="checkupdateForm.resx">
+      <DependentUpon>checkupdateForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="optForm.resx">
-      <DependentUpon>optForm.cs</DependentUpon>
+    <EmbeddedResource Include="optionsForm.resx">
+      <DependentUpon>optionsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -153,12 +141,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="scripthub_form.resx">
-      <DependentUpon>scripthub_form.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="upgradeForm.resx">
-      <DependentUpon>upgradeForm.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

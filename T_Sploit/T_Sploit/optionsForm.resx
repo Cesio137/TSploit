@@ -118,7 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="bunifuFlatButton1.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="close_Btn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAh1JREFUWEfN
+        V7tOwzAUjUA8JAZeKxI7lViQkKCO1AEVldg8hm7ATwA7I/AXwAILE4ww8AUMMDFU0JKUBbEBAwrX5arA
+        zbWTtAF6pKNK8bl2eo7t2E5H4aac673zxPB31ovFAWxODV1L+9NjYHMUgXTPAilCwjdfzRZRkhi6RteS
+        vsJAiVOURBF4rhcp+ORDbWV6FGWx0P8Uau5JHw36yl1GGQ8QHdAizboUJyiJReCJY64P4D5KzHiamxsE
+        YZUUNugrsYYyI0C3TusaVMKvzs+MoMwOYxRKPPsLs+Moi6BWKoyB7ilSB4y1ngKK2CiAl2G53I2yJsJt
+        pwte8ILRa8ZbT2GLIlD5TZQ1AStoi9emsJ7CsipeHxfdSZQ58EI5ePZCNA2mtp4COjFFcV0pFPpvS6U+
+        X4orpl0zvfUU1iik2A1kfo953p71FLAHKHYQKd6RkTZdg+XZADo1RcGxfespYqL4YpbWU9SVkOyg3wgT
+        cgXl2eNfX6CyXBiCiVXjBv3B34qgrvKH7IA8D7AsG/zrMrRar8QO/MJmxLZlE4XF+iRbcXtRWGb9z4/R
+        kjsBz/iPUaurQlsPHfAbjyc2UNaE/kSz2lajsFhvPpDI/Dmj10wXhdH6do5kSaOwWe977irKjNAHV642
+        cRQm62EpJj+WS/eI6wNoj8Iy61NdTNBF/mJiiwJsOmWK/u5qFk5N9dDLZNaXUz0GNncCHOcDmvy9u+N3
+        iyMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="kill_Button.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTAw9HKhAAANJElEQVR4Xu3d
@@ -181,7 +196,7 @@
         Vu+NkQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="bunifuFlatButton2.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="github_Button.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTAw9HKhAAANJElEQVR4Xu3d
@@ -244,7 +259,7 @@
         Vu+NkQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="bunifuFlatButton3.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="discordButton.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTAw9HKhAAANJElEQVR4Xu3d
@@ -370,4 +385,10 @@
         Vu+NkQAAAABJRU5ErkJggg==
 </value>
   </data>
+  <metadata name="bunifuDragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="bunifuDragControl2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>177, 17</value>
+  </metadata>
 </root>

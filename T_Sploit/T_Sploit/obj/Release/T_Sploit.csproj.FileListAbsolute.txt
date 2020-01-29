@@ -1,9 +1,6 @@
 D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.csprojAssemblyReference.cache
-D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.aboutForm.resources
 D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.TS_Form.resources
-D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.optForm.resources
 D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.Properties.Resources.resources
-D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.scripthub_form.resources
 D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.csproj.GenerateResource.cache
 D:\Git\TSploit\T_Sploit\T_Sploit\bin\Release\T_Sploit.exe.config
 D:\Git\TSploit\T_Sploit\T_Sploit\bin\Release\T_Sploit.exe.manifest
@@ -20,4 +17,5 @@ D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.application
 D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.csproj.CopyComplete
 D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.exe
 D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.pdb
-D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.upgradeForm.resources
+D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.checkupdateForm.resources
+D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.optionsForm.resources

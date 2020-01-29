@@ -104,6 +104,7 @@
             this.Script_Box.CommentPrefix = "--";
             this.Script_Box.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Script_Box.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
+            this.Script_Box.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.Script_Box.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Script_Box.IndentBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.Script_Box.IsReplaceMode = false;
@@ -121,7 +122,7 @@
             this.Script_Box.ServiceLinesColor = System.Drawing.Color.Transparent;
             this.Script_Box.Size = new System.Drawing.Size(599, 338);
             this.Script_Box.TabIndex = 4;
-            this.Script_Box.Text = "--[[\r\n    The Super Exploit v1.0.0\r\n    Source Code: github.com/nathanmiguel123\r\n" +
+            this.Script_Box.Text = "--[[\r\n    The Super Exploit v1.0.1\r\n    Source Code: github.com/nathanmiguel123\r\n" +
     "]]";
             this.Script_Box.Zoom = 100;
             // 

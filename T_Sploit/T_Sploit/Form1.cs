@@ -22,10 +22,34 @@ namespace T_Sploit
         {
             InitializeComponent();
             string subdir = Directory.GetCurrentDirectory() + @"\Scripts";
+            string updatedir = Directory.GetCurrentDirectory() + @"\upgrade.exe";
+            string updatexml = Directory.GetCurrentDirectory() + @"\T_Sploit.exe.config";
             // If directory does not exist, create it. 
             if (!Directory.Exists(subdir))
             {
                 Directory.CreateDirectory(subdir);
+            }
+            else
+            {
+                //nothing
+            }
+
+            if (File.Exists(updatexml))
+            {
+                File.Delete(updatedir);
+            }
+            else
+            {
+                //nothing
+            }
+
+            if (File.Exists(updatedir))
+            {
+                File.Delete(updatexml);
+            }
+            else
+            {
+                //nothing
             }
         }
 
@@ -140,8 +164,8 @@ namespace T_Sploit
 
         private void opt_Btn_Click(object sender, EventArgs e)
         {
-            optForm s1 = new optForm();
-            s1.ShowDialog();
+            optionsForm opt1 = new optionsForm();
+            opt1.ShowDialog();
         }
 
         private void imgui_Btn_Click(object sender, EventArgs e)

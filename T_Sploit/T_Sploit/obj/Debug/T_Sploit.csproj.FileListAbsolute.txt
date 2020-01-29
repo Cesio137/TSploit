@@ -15,9 +15,7 @@ D:\Git\TSploit\T_Sploit\T_Sploit\bin\Debug\T_Sploit.exe.manifest
 D:\Git\TSploit\T_Sploit\T_Sploit\bin\Debug\T_Sploit.application
 D:\Git\TSploit\T_Sploit\T_Sploit\obj\Debug\T_Sploit.exe.manifest
 D:\Git\TSploit\T_Sploit\T_Sploit\obj\Debug\T_Sploit.application
-D:\Git\TSploit\T_Sploit\T_Sploit\obj\Debug\T_Sploit.optForm.resources
-D:\Git\TSploit\T_Sploit\T_Sploit\obj\Debug\T_Sploit.scripthub_form.resources
-D:\Git\TSploit\T_Sploit\T_Sploit\obj\Debug\T_Sploit.aboutForm.resources
 D:\Git\TSploit\T_Sploit\T_Sploit\obj\Debug\T_Sploit.TrustInfo.xml
 D:\Git\TSploit\T_Sploit\T_Sploit\bin\Debug\Bunifu_UI_v1.5.3.dll
-D:\Git\TSploit\T_Sploit\T_Sploit\obj\Debug\T_Sploit.upgradeForm.resources
+D:\Git\TSploit\T_Sploit\T_Sploit\obj\Debug\T_Sploit.optionsForm.resources
+D:\Git\TSploit\T_Sploit\T_Sploit\obj\Debug\T_Sploit.checkupdateForm.resources
