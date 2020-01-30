@@ -55,6 +55,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClubDarkAPI.dll" size="46592">
+      <assemblyIdentity name="ClubDarkAPI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WPBtu5PEFtRBbbDf85IRTg3mbntd3vLrmqj/XZp8QLU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EasyExploits.dll" size="9216">
       <assemblyIdentity name="EasyExploits" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>

@@ -7,7 +7,7 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="T_Sploit.exe.manifest" size="5573">
+    <dependentAssembly dependencyType="install" codebase="T_Sploit.exe.manifest" size="6213">
       <assemblyIdentity name="T_Sploit.exe" version="1.0.100.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
     </dependentAssembly>
   </dependency>

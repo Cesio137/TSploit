@@ -19,3 +19,4 @@ D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.exe
 D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.pdb
 D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.checkupdateForm.resources
 D:\Git\TSploit\T_Sploit\T_Sploit\obj\Release\T_Sploit.optionsForm.resources
+D:\Git\TSploit\T_Sploit\T_Sploit\bin\Release\ClubDarkAPI.dll

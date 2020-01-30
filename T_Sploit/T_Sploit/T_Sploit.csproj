@@ -76,6 +76,9 @@
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>C:\Users\natha\Documents\Visual Studio 2019\DLLs\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
+    <Reference Include="ClubDarkAPI">
+      <HintPath>..\..\APIs\ClubDarkAPI.dll</HintPath>
+    </Reference>
     <Reference Include="EasyExploits">
       <HintPath>..\..\APIs\EasyExploits.dll</HintPath>
     </Reference>

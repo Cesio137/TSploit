@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WeAreDevs_API;
 using EasyExploits;
+using ClubDarkAPI;
 using System.IO;
 
 namespace T_Sploit
@@ -16,7 +17,8 @@ namespace T_Sploit
     public partial class TS_Form : Form
     {
         EasyExploits.Module module = new EasyExploits.Module();//easyexploit API
-        ExploitAPI WRDmodule = new ExploitAPI();//WRD API
+        WeAreDevs_API.ExploitAPI WRDmodule = new WeAreDevs_API.ExploitAPI();//EasyExploits Exploit API
+        ClubDarkAPI.ExploitAPI cdapi = new ClubDarkAPI.ExploitAPI();//clubdark API
         int api_selection;//for execute right api
         public TS_Form()
         {
@@ -25,6 +27,7 @@ namespace T_Sploit
             string updatedir = Directory.GetCurrentDirectory() + @"\upgrade.exe";
             string updatexml = Directory.GetCurrentDirectory() + @"\update.xml";
             // If directory does not exist, create it. 
+            
             if (!Directory.Exists(subdir))
             {
                 Directory.CreateDirectory(subdir);
@@ -75,6 +78,10 @@ namespace T_Sploit
             {
                 this.WRDmodule.SendLuaScript(Script_Box.Text);
             }
+            else if (api_selection == 3)
+            {
+                cdapi.ExecuteScript(Script_Box.Text);
+            }
         }
 
         private void close_Btn_Click(object sender, EventArgs e)
@@ -104,6 +111,11 @@ namespace T_Sploit
             {
                 this.WRDmodule.LaunchExploit();
                 api_selection = 2;
+            }
+            else if (api_dev == 3)
+            {
+                cdapi.LaunchExploit();
+                api_selection = 3;
             }
         }
 
