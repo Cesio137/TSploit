@@ -27,6 +27,8 @@ namespace T_Sploit
             string updatedir = Directory.GetCurrentDirectory() + @"\upgrade.exe";
             string updatexml = Directory.GetCurrentDirectory() + @"\update.xml";
             // If directory does not exist, create it. 
+            WRDmodule.IsUpdated();
+            cdapi.DownloadLatestVersion();
             
             if (!Directory.Exists(subdir))
             {

@@ -1,0 +1,5 @@
+D:\Git\TSploit\T_Sploit\TheSuper_Injector\bin\Release\TheSuper_Injector.dll
+D:\Git\TSploit\T_Sploit\TheSuper_Injector\bin\Release\TheSuper_Injector.pdb
+D:\Git\TSploit\T_Sploit\TheSuper_Injector\obj\Release\TheSuper_Injector.csprojAssemblyReference.cache
+D:\Git\TSploit\T_Sploit\TheSuper_Injector\obj\Release\TheSuper_Injector.dll
+D:\Git\TSploit\T_Sploit\TheSuper_Injector\obj\Release\TheSuper_Injector.pdb
