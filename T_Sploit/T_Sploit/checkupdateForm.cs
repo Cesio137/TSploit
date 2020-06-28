@@ -21,7 +21,7 @@ namespace T_Sploit
         {
             InitializeComponent();
 
-            Uri xmlUrl = new Uri("https://raw.githubusercontent.com/nathanmiguel123/TSploit/manifest/manifest/update.config");
+            Uri xmlUrl = new Uri("https://raw.githubusercontent.com/Cesio137/TSploit/manifest/manifest/update.config");
             wc.DownloadFileAsync(xmlUrl, "update.xml");
             wc.DownloadProgressChanged += wc_DownloadFileProgress;
             wc.DownloadFileCompleted += new AsyncCompletedEventHandler(FileDownloadCompleted);

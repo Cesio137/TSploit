@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClubDarkAPI.dll" size="46592">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClubDarkAPI.dll" size="10240">
       <assemblyIdentity name="ClubDarkAPI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WPBtu5PEFtRBbbDf85IRTg3mbntd3vLrmqj/XZp8QLU=</dsig:DigestValue>
+        <dsig:DigestValue>VlOkpvLT/qUKatQwQA3qBKKx63FCt+uitM3gFSmBMNw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -84,6 +84,13 @@
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WeAreDevs_API.dll" size="13824">
       <assemblyIdentity name="WeAreDevs_API" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fJavb2tIdfN/pyoiorD8M16SvoCxBH4hogF+ZFToG2A=</dsig:DigestValue>
+      </hash>
     </dependentAssembly>
   </dependency>
   <file name="logo.ico" size="16958" />
